@@ -12,8 +12,8 @@
 	<description>Maven Web Project for Java Project</description>
 
 	<organization>
-		<name>JOMACS IT SOLUTIONS</name>
-		<url>http://jomacsit.com/</url>
+		<name>DRSWEETS IT SOLUTIONS</name>
+		<url>http://DRSWEETSsit.com/</url>
 	</organization>
 
 	<properties>
@@ -21,9 +21,9 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://localhost:9000/</sonar.host.url>
+		<sonar.host.url>http://172.31.20.62:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin</sonar.password>
+		<sonar.password>Sweets123456!</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -96,14 +96,14 @@
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
-	      <name>JOMACS Releases Nexus Repository</name>
-	      <url>http://localhost:8081/repository/gtb-app-release/</url>
+	      <name>DRSWEETS Releases Nexus Repository</name>
+	      <url>http://172.31.23.104:8081/repository/newprojectrelease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
-	      <name>JOMACS Snapshot Nexus Repository </name>
-	      <url>http://localhost:8081/repository/gtb-app-snapshot/</url>
+	      <name>DRSWEETS Snapshot Nexus Repository </name>
+	      <url>http://172.31.23.104:8081/repository/newprojectsnapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
